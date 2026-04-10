@@ -36,9 +36,15 @@ namespace G_Net_34_LINQ02
             //    .Where(p => p.Category == "Seafood")
             //    .All(p => p.UnitsInStock > 0);
             //Console.WriteLine($"All Products in the 'Seafood' are in stock ? : {query}");
-            
-            #endregion
 
+            #endregion
+            #region Q05
+            //Check if the ID list contains 9
+
+            //int[] ids = { 3, 9, 13, 18 };
+            //var query = ids.Contains(9);
+            //Console.WriteLine($"Ids contains 9 ?: {query}");
+            #endregion
 
         }
     }
