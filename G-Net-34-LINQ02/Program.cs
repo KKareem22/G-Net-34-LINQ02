@@ -29,6 +29,16 @@ namespace G_Net_34_LINQ02
             //Helper.PrintWithNewLine("List of Product Price Less 25 $", query);
 
             #endregion
+            #region Q04
+            //Check if ALL products in the "Seafood" category are in stock
+
+            //var query = ProductList
+            //    .Where(p => p.Category == "Seafood")
+            //    .All(p => p.UnitsInStock > 0);
+            //Console.WriteLine($"All Products in the 'Seafood' are in stock ? : {query}");
+            
+            #endregion
+
 
         }
     }
