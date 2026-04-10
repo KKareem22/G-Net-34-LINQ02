@@ -180,7 +180,16 @@ namespace G_Net_34_LINQ02
             //    .Concat(CustomerList.Take(3).Select(c => c.CompanyName)));
             //Helper.PrintWithNewLine("Concatenate :", query1);
             #endregion
+            #region Q21
+            //Pair each product with a customer (by position) and produce
+            //a string "ProductName sold to CompanyName".
 
+
+            //var productsName = ProductList.Select(p => p.ProductName).ToList();
+            //var customerSName=CustomerList.Select(c=>c.CompanyName).ToList();
+            //var zipped = productsName.Zip(customerSName, (p, c) => $"{p}  :  {c}");
+            //Helper.PrintWithNewLine("ProductName   :  CustomerName", zipped);
+            #endregion
         }
     }
 }
