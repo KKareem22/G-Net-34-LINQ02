@@ -72,7 +72,14 @@ namespace G_Net_34_LINQ02
             //}
 
             #endregion
+            #region Q08
+            //Find all categories that have MORE THAN 3 products
+            //var query = ProductList
+            //    .GroupBy(p => p.Category)
+            //    .Where(g => g.Count() > 3);
+            //Helper.PrintWithGrouping("Categories with more than 3 products", "Category", query);
 
+            #endregion
 
 
         }
