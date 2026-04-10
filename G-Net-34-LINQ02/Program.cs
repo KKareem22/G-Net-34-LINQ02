@@ -96,8 +96,16 @@ namespace G_Net_34_LINQ02
             //                TotalOrderValue = g.Sum(c => c.Orders.Sum(o => o.Total))
             //            };
             //Helper.PrintWithNewLine("Group customers by Country", query);
-           
+
             #endregion
+            #region Q10
+            //Calculate the total number of units in stock across all products
+            
+            //var Total = ProductList.Sum(p => p.UnitsInStock);
+            //Console.WriteLine($"Total = {Total}");
+            #endregion
+
+
 
         }
     }
