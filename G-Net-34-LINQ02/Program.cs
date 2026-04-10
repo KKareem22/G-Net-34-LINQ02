@@ -120,6 +120,20 @@ namespace G_Net_34_LINQ02
             //    .Distinct();
             //Helper.PrintWithNewLine("Distinct list of all product categories", query);
             #endregion
+            #region Q13
+            //find product IDs that are in setA but NOT in setB
+            //int[] setA = { 1, 3, 5, 7, 9, 11, 13 };
+            //int[] setB = { 3, 6, 9, 12, 15, 13 };
+            //Helper.PrintList("Set A", setA);
+            //Helper.PrintList("Set B", setB);
+            //var query = setA.Except(setB);
+            //Helper.PrintList("Product IDs that are in setA but NOT in setB", query);
+            
+            #endregion
+
+
+
+
 
         }
     }
