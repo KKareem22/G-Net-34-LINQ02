@@ -52,7 +52,26 @@ namespace G_Net_34_LINQ02
             //    .GroupBy(p => p.Category);
             //Helper.PrintWithGrouping("Group products by Category", "Category", query);
             #endregion
+            #region Q07
+            //Group products by Category and project only product names per group
 
+            //var query = ProductList
+            //    .GroupBy(p => p.Category)
+            //    .Select(g => new
+            //    {
+            //        Category = g.Key,
+            //        Count=g.Count(),
+            //        ProductName = string.Join(", \n", g.Select(p => p.ProductName))
+            //    });
+            //foreach (var item in query)
+            //{ 
+            //    Console.WriteLine($"Category : {item.Category}");
+            //    Console.WriteLine($"Count : {item.Count}");
+            //    Console.WriteLine($"Product Names : \n{item.ProductName}");
+            //    Console.WriteLine(new string('-', 30));
+            //}
+
+            #endregion
 
 
 
