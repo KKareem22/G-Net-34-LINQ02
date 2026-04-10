@@ -160,6 +160,11 @@ namespace G_Net_34_LINQ02
             //var query = ProductList.FirstOrDefault(p => p.UnitPrice > 500);
             //Console.WriteLine(query);
             #endregion
+            #region Q18
+            //Generate a multiplication table row for 7
+            //var query = Enumerable.Range(1, 12).Select(n => n * 7);
+            //Helper.PrintList("multiplication", query);
+            #endregion
 
         }
     }
