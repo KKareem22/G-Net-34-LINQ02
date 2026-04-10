@@ -128,13 +128,21 @@ namespace G_Net_34_LINQ02
             //Helper.PrintList("Set B", setB);
             //var query = setA.Except(setB);
             //Helper.PrintList("Product IDs that are in setA but NOT in setB", query);
-            
+
             #endregion
+            #region Q14
+            //Find countries that appear in list1 but NOT in list2
+           // (case -insensitive).
+            //    string[] list1 = { "Germany", "France", "UK", "Spain" };
+            //    string[] list2 = { "france", "SPAIN", "Italy" };
+
+            //var query=list1.Except(list2,StringComparer.OrdinalIgnoreCase);
+            //Helper.PrintList("List1 Except List2 ", query);
+                #endregion
 
 
 
 
-
-        }
+            }
     }
 }
