@@ -147,7 +147,12 @@ namespace G_Net_34_LINQ02
             //    .ToDictionary(p => p.ProductID);
             //Console.WriteLine(query[18]);
             #endregion
+            #region Q16
+            //Get the first product whose price is greater than $50.
 
+            //var query = ProductList.First(p => p.UnitPrice > 50);
+            //Console.WriteLine(query);
+            #endregion
 
 
         }
