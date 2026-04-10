@@ -172,7 +172,14 @@ namespace G_Net_34_LINQ02
             //var query = Enumerable.Range(1, 30).Where(n => n % 2 == 0);
             //Helper.PrintList("Even (1:30)", query);
             #endregion
+            #region Q20
+            //Concatenate the first 3 product names with the first 3
+            //customer company names into a single sequence.
 
+            //var query1 = (ProductList.Take(3).Select(p => p.ProductName)
+            //    .Concat(CustomerList.Take(3).Select(c => c.CompanyName)));
+            //Helper.PrintWithNewLine("Concatenate :", query1);
+            #endregion
 
         }
     }
