@@ -1,6 +1,7 @@
 ﻿using G_Net_34_LINQ02.Models;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Diagnostics.Metrics;
 using static G_Net_34_LINQ02.DataSources.Source;
 namespace G_Net_34_LINQ02
 {
@@ -80,7 +81,23 @@ namespace G_Net_34_LINQ02
             //Helper.PrintWithGrouping("Categories with more than 3 products", "Category", query);
 
             #endregion
+            #region Q09
+            //Using QUERY SYNTAX, group customers by Country, and for each
+            //group select { Country, Count, TotalOrderValue }.
 
+
+            //var query = from c in CustomerList
+            //            group c by c.Country
+            //          into g
+            //            select new
+            //            {
+            //                Country = g.Key,
+            //                Count = g.Count(),
+            //                TotalOrderValue = g.Sum(c => c.Orders.Sum(o => o.Total))
+            //            };
+            //Helper.PrintWithNewLine("Group customers by Country", query);
+           
+            #endregion
 
         }
     }
