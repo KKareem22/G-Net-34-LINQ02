@@ -132,17 +132,24 @@ namespace G_Net_34_LINQ02
             #endregion
             #region Q14
             //Find countries that appear in list1 but NOT in list2
-           // (case -insensitive).
+            // (case -insensitive).
             //    string[] list1 = { "Germany", "France", "UK", "Spain" };
             //    string[] list2 = { "france", "SPAIN", "Italy" };
 
             //var query=list1.Except(list2,StringComparer.OrdinalIgnoreCase);
             //Helper.PrintList("List1 Except List2 ", query);
-                #endregion
+            #endregion
+            #region Q15
+            //Build a Dictionary<int, Product> keyed by ProductID. Then
+            //retrieve and print the product with ID = 18.
+
+            //var query = ProductList
+            //    .ToDictionary(p => p.ProductID);
+            //Console.WriteLine(query[18]);
+            #endregion
 
 
 
-
-            }
+        }
     }
 }
