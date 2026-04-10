@@ -45,6 +45,16 @@ namespace G_Net_34_LINQ02
             //var query = ids.Contains(9);
             //Console.WriteLine($"Ids contains 9 ?: {query}");
             #endregion
+            #region Q06
+            //Group all products by Category and print each group with its product count.
+
+            //var query = ProductList
+            //    .GroupBy(p => p.Category);
+            //Helper.PrintWithGrouping("Group products by Category", "Category", query);
+            #endregion
+
+
+
 
         }
     }
