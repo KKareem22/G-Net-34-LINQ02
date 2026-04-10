@@ -153,7 +153,13 @@ namespace G_Net_34_LINQ02
             //var query = ProductList.First(p => p.UnitPrice > 50);
             //Console.WriteLine(query);
             #endregion
+            #region Q17
+            //Try to get the first product with a price > $500. it returns null
+            //instead of throwing.
 
+            //var query = ProductList.FirstOrDefault(p => p.UnitPrice > 500);
+            //Console.WriteLine(query);
+            #endregion
 
         }
     }
