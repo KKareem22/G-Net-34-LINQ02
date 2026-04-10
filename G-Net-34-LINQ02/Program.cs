@@ -165,6 +165,14 @@ namespace G_Net_34_LINQ02
             //var query = Enumerable.Range(1, 12).Select(n => n * 7);
             //Helper.PrintList("multiplication", query);
             #endregion
+            #region Q19
+            //Generate even numbers between 1 and 30.
+
+
+            //var query = Enumerable.Range(1, 30).Where(n => n % 2 == 0);
+            //Helper.PrintList("Even (1:30)", query);
+            #endregion
+
 
         }
     }
