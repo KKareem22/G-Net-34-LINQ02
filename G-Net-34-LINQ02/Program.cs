@@ -100,12 +100,26 @@ namespace G_Net_34_LINQ02
             #endregion
             #region Q10
             //Calculate the total number of units in stock across all products
-            
+
             //var Total = ProductList.Sum(p => p.UnitsInStock);
             //Console.WriteLine($"Total = {Total}");
             #endregion
+            #region Q11
+            //Find the CHEAPEST and MOST EXPENSIVE product prices
 
+            //var MaxPrice = ProductList.Max(p => p.UnitPrice);
+            //var MinPrice = ProductList.Min(p => p.UnitPrice);
+            //Console.WriteLine($"Expensive Price = {MaxPrice}");
+            //Console.WriteLine($"Cheapest Price = {MinPrice}");
+            #endregion
+            #region Q12
+            //Get a distinct list of all product categories
 
+            //var query = ProductList
+            //    .Select(p => p.Category)
+            //    .Distinct();
+            //Helper.PrintWithNewLine("Distinct list of all product categories", query);
+            #endregion
 
         }
     }
